@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nano Banana Test App</title>
+    <!-- Stylesheet link connection -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BananaTracer SDK Injection -->
+    <script src="../bananatracer.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>🍌 Banana Admin Portal</h1>
+        <p>A mock web ecosystem to demonstrate client-side static analysis mapping.</p>
+        
+        <div class="actions">
+            <button id="load-users-btn">Fetch Users List</button>
+            <button id="trigger-login-btn">Mock Auth Request</button>
+        </div>
+
+        <div class="output-container">
+            <h3>Response Console Output</h3>
+            <div id="output-box" class="console">Waiting for actions...</div>
+        </div>
+    </div>
+
+    <!-- Script tags connection -->
+    <script src="assets/utils.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
